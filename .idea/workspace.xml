@@ -2,305 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6ebe0b-24cc-4402-9ff2-139b2684f9ff" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg10.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg11.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg12.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg13.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg14.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg15.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg16.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg17.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg18.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg19.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg1f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg20.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg21.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg22.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg23.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg24.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg25.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg26.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg27.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg28.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg29.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg2f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg30.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg31.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg32.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg33.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg34.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg35.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg36.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg37.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg38.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg39.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg3f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg40.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg41.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg42.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg43.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg44.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg45.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg46.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg47.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg48.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg49.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg4f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg5.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg50.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg51.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg52.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg53.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg54.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg55.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg56.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg57.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg58.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg59.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg5a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg6.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg7.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg8.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bg9.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bga.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bgb.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bgc.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bgd.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bge.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\bgf.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\compatibility.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f10.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f11.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f12.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f13.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f14.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f15.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f16.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f17.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f18.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f19.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1a.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1b.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1c.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1d.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1e.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f1f.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f2.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f20.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f21.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f22.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f23.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f24.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f25.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f26.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f27.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f28.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f29.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f2a.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f2b.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f2c.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f2d.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f3.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f4.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f5.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f6.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f7.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f8.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\f9.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fa.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fancy.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fb.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fc.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fd.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\fe.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\ff.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\main.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\p1aknkslut7ph13vnf9117g91oi64.ppt" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\pres.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\src\main\resources\presentation\theViewer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg10.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg11.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg12.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg13.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg14.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg15.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg16.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg17.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg18.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg19.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg1f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg20.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg21.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg22.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg23.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg24.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg25.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg26.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg27.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg28.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg29.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg2f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg30.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg31.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg32.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg33.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg34.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg35.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg36.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg37.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg38.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg39.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg3f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg40.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg41.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg42.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg43.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg44.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg45.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg46.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg47.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg48.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg49.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4b.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4c.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4d.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4e.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg4f.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg5.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg50.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg51.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg52.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg53.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg54.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg55.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg56.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg57.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg58.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg59.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg5a.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg6.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg7.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg8.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bg9.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bga.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bgb.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bgc.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bgd.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bge.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\bgf.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\compatibility.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f10.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f11.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f12.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f13.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f14.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f15.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f16.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f17.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f18.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f19.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1a.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1b.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1c.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1d.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1e.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f1f.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f2.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f20.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f21.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f22.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f23.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f24.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f25.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f26.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f27.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f28.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f29.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f2a.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f2b.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f2c.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f2d.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f3.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f4.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f5.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f6.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f7.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f8.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\f9.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fa.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fancy.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fb.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fc.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fd.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\fe.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\ff.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\main.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\p1aknkslut7ph13vnf9117g91oi64.ppt" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\pres.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\Diplom_Maven\target\classes\presentation\theViewer.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/diploma/form/windows/data/add/region/ControllerLeft.class" afterPath="$PROJECT_DIR$/target/classes/com/diploma/form/windows/data/add/region/ControllerLeft.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/diploma/form/windows/data/add/region/ModelRegion.class" afterPath="$PROJECT_DIR$/target/classes/com/diploma/form/windows/data/add/region/ModelRegion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerLeft.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerLeft.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diplom_Maven.iml" afterPath="$PROJECT_DIR$/Diplom_Maven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ModelRegion.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ModelRegion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Table.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/Command.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/Command.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/WindowService.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/WindowService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/converter/converter.json" afterPath="$PROJECT_DIR$/src/main/resources/converter/converter.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/converter/converter.json" afterPath="$PROJECT_DIR$/target/classes/converter/converter.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/data/setting.json" afterPath="$PROJECT_DIR$/src/main/resources/data/setting.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/data/setting.json" afterPath="$PROJECT_DIR$/target/classes/data/setting.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\Diplom_Maven\src\main\java\com\diploma\form\windows\data\add\region\ControllerLeft.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerLeft.java" />
+      <change type="MOVED" beforePath="F:\Diplom_Maven\src\main\java\com\diploma\form\windows\data\add\region\ControllerRight.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerRight.java" />
+      <change type="MOVED" beforePath="F:\Diplom_Maven\src\main\java\com\diploma\form\windows\data\add\region\ModelRegion.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ModelRegion.java" />
+      <change type="MOVED" beforePath="F:\Diplom_Maven\src\main\java\com\diploma\form\windows\data\add\region\RegionQ.java" afterPath="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/RegionQ.java" />
     </list>
     <ignored path="Diplom_Maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -372,124 +84,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModelRegion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ModelRegion.java">
+      <file leaf-file-name="ModelRegion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ModelRegion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.218509">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="20" selection-start-line="26" selection-start-column="7" selection-end-line="37" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegionQ.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/RegionQ.java">
+      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/Command.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/contracts/client/ModelClient.java">
+      <file leaf-file-name="ControllerLeft.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerLeft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.3007712">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <marker date="1468789678785" expanded="true" signature="706:790" placeholder="INSERT INTO ..." />
-                <marker date="1468789678785" expanded="true" signature="1494:1536" placeholder="DELETE FROM ..." />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerRight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerRight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerLeft.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerLeft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C##DIPLOM.REGION" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/3683a653/d598a951-2785-4c8c-9943-165d42ae6bc3/.C##DIPLOM.REGION">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/setting.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="89" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CriteriaBuilder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/criteria/CriteriaBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="192.92592">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CriteriaQuery.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/criteria/CriteriaQuery.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.259259">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -499,9 +128,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -516,12 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/htmlReader/ControllerRight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/watch/chart/ControllerRight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/analysis/data/ControllerLeft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/additionally/converter/ControllerRight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/watch/chart/ControllerLeft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/bookKeeping/keeping/ControllerRight.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/analysis/charts/ControllerLeft.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/bookKeeping/chart/ControllerRight.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/bookKeeping/type/ControllerRight.java" />
@@ -537,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Contract.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Ground.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Seismic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Seismic_.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region_.java" />
@@ -567,6 +189,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerLeft.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ModelRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/WindowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Table.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerRight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ModelRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/dataBase/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerLeft.java" />
       </list>
     </option>
   </component>
@@ -737,20 +366,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -990,94 +605,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="add" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="add" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="region" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1108,57 +635,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diplom_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contracts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="dataBase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1189,6 +666,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1653,34 +1134,35 @@
       <workItem from="1468693881402" duration="2695000" />
       <workItem from="1468696964500" duration="105000" />
       <workItem from="1468728440296" duration="46268000" />
-      <workItem from="1469572204221" duration="18838000" />
+      <workItem from="1469572204221" duration="22479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100504000" />
+    <option name="totallyTimeSpent" value="104145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.281198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28104576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18381241" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18381241" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31862745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31013617" sideWeight="0.50653595" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2579425" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24205749" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18835099" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1693,7 +1175,6 @@
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1718,65 +1199,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/3683a653/d598a951-2785-4c8c-9943-165d42ae6bc3/.C##DIPLOM.SENSOR">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Ground_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Contract_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Client_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/BalanceChanges_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/BookKeeping_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1873,16 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Analysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/BookKeeping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1947,18 +1359,6 @@
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/ControllerLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="427" column="11" selection-start-line="408" selection-start-column="7" selection-end-line="427" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1469750650080" expanded="true" signature="-1:-1" placeholder="SELECT NAME ..SEISMIC..." />
-            <marker date="1469750650080" expanded="true" signature="-1:-1" placeholder="SELECT NAME ..GROUND..." />
           </folding>
         </state>
       </provider>
@@ -2127,29 +1527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.925926">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/WindowService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7777777">
@@ -2182,14 +1559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/LeftElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17042607">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/setting.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -2211,31 +1580,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <marker date="1468789678785" expanded="true" signature="706:790" placeholder="INSERT INTO ..." />
-            <marker date="1468789678785" expanded="true" signature="1494:1536" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerRight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/RegionQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1468789678785" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1468789678785" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -2253,26 +1599,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ControllerLeft.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/LeftElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/ControllerLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="400" column="40" selection-start-line="400" selection-start-column="40" selection-end-line="400" selection-end-column="40" />
           <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/region/ModelRegion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/RegionQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.218509">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.61182517">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/criteria/AbstractQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.148148">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar!/javax/persistence/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.562982">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/WindowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4318766">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2339332">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/tables/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4318766">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/dataBase/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ModelRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="20" selection-start-line="26" selection-start-column="7" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/region/ControllerLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3007712">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

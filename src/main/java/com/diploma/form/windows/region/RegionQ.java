@@ -1,4 +1,4 @@
-package com.diploma.form.windows.data.add.region;
+package com.diploma.form.windows.region;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Retention;

@@ -1,5 +1,6 @@
-package com.diploma.form.windows.data.add.region;
+package com.diploma.form.windows.region;
 
+import com.diploma.dataBase.Command;
 import com.diploma.dataBase.tables.Region;
 import com.diploma.form.windows.AbstractWindow;
 import com.diploma.form.windows.Left;
@@ -29,11 +30,11 @@ public class ControllerLeft extends AbstractWindow {
 
     public void refreshListRegion() {
         accordion.getPanes().clear();
-        ArrayList<Region> list = ModelRegion.selectRegion();
+        ArrayList<Region> list = Command.select(Region.class);
 
         for (Region element : list) {
             EventHandler<ActionEvent> eventHandler = event -> {
-                ModelRegion.delete(element.getId());
+                Command.delete(Region.class,element.getId());
                 refreshListRegion();
             };
 

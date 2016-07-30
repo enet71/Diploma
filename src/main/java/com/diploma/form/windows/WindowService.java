@@ -1,6 +1,6 @@
 package com.diploma.form.windows;
 
-import com.diploma.form.windows.data.add.region.RegionQ;
+import com.diploma.form.windows.region.*;
 import com.diploma.form.windows.doubleWindow.AbstractDoubleWindow;
 import com.diploma.form.windows.doubleWindow.DoubleWindow;
 import org.jboss.weld.environment.se.Weld;

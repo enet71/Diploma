@@ -1,4 +1,4 @@
-package com.diploma.form.windows.data.add.region;
+package com.diploma.form.windows.region;
 
 import com.diploma.dataBase.tables.Region;
 
@@ -10,18 +10,6 @@ import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 
 public class ModelRegion {
-    public static void insertRegion(String name, String address) {
-        Region region = new Region(1, name, address);
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("DBPersistence");
-        EntityManager em = emf.createEntityManager();
-        EntityTransaction tx = em.getTransaction();
-        tx.begin();
-        em.persist(region);
-        tx.commit();
-        em.close();
-        emf.close();
-    }
-
     public static ArrayList<Region> selectRegion() {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("DBPersistence");
         EntityManager em = emf.createEntityManager();

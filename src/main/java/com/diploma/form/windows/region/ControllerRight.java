@@ -1,5 +1,7 @@
-package com.diploma.form.windows.data.add.region;
+package com.diploma.form.windows.region;
 
+import com.diploma.dataBase.Command;
+import com.diploma.dataBase.tables.Region;
 import com.diploma.form.windows.AbstractWindow;
 import com.diploma.form.windows.Right;
 import javafx.fxml.FXML;
@@ -31,7 +33,7 @@ public class ControllerRight extends AbstractWindow {
 
     @FXML
     private void add() throws SQLException, IOException {
-        ModelRegion.insertRegion(nameField.getText(), addressField.getText());
+        Command.insert(new Region(1,nameField.getText(), addressField.getText()));
         ((ControllerLeft) otherController).refreshListRegion();
     }
 }
