@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <Accordion>
+                    <panes>
+                        <TitledPane animated="false" text="Дополнительно">
+                     <content>
+                        <VBox>
+                           <children>
+                              <Button fx:id="exportButton" mnemonicParsing="false" onAction="#export" text="Экспорт в PNG" />
+                           </children>
+                        </VBox>
+                     </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+            </children>
+        </VBox>
+    </center>
+</fx:root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox spacing="5.0" BorderPane.alignment="CENTER">
+           <children>
+            <Label text="Сейсмостанция">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <ComboBox fx:id="seismicComboBox">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </ComboBox>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Датчики">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+               <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" style="-fx-background-color: #37474F;" BorderPane.alignment="CENTER">
+                  <content>
+                      <BorderPane style="-fx-background-color: #37474F;">
+                          <center>
+                              <Accordion fx:id="accordion" style="-fx-background-color: #37474F;" BorderPane.alignment="CENTER" />
+                          </center>
+                      </BorderPane>
+                  </content>
+               </ScrollPane>
+           </children>
+        </VBox>
+    </center>
+   <top>
+         <Accordion style="-fx-background-color: #37474F;" BorderPane.alignment="CENTER">
+             <panes>
+                 <TitledPane animated="false" text="Тип карты">
+                    <content>
+                        <VBox fx:id="vBoxSensor" spacing="5.0">
+                     <children>
+                        <RadioButton mnemonicParsing="false" onAction="#switchRoadmap" text="Road">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="type" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" onAction="#switchSatellite" text="Satellite" toggleGroup="$type" />
+                        <RadioButton mnemonicParsing="false" onAction="#switchHybrid" selected="true" text="Hybrid" toggleGroup="$type" />
+                        <RadioButton mnemonicParsing="false" onAction="#switchTerrain" text="Terrain" toggleGroup="$type" />
+                     </children></VBox>
+                    </content>
+                 </TitledPane>
+             </panes>
+         </Accordion>
+   </top>
+</fx:root>

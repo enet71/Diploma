@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <Accordion>
+                    <panes>
+                        <TitledPane animated="false" text="Sensor">
+                            <content>
+                                <VBox fx:id="vBoxSensor" spacing="2.0">
+                                    <children>
+
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="S - Wave">
+                            <content>
+                                <VBox spacing="2.0">
+                                    <children>
+                                        <CheckBox fx:id="checkBoxEnergySWave" mnemonicParsing="false" text="Energy" />
+                                        <CheckBox fx:id="checkBoxMagnitudeSWave" mnemonicParsing="false" text="Magnitude" />
+                                        <CheckBox fx:id="checkBoxDepthSWave" mnemonicParsing="false" text="Depth" />
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="P - Wave">
+                            <content>
+                                <VBox spacing="2.0">
+                                    <children>
+                                        <CheckBox fx:id="checkBoxEnergyPWave" mnemonicParsing="false" text="Energy" />
+                                        <CheckBox fx:id="checkBoxMagnitudePWave" mnemonicParsing="false" text="Magnitude" />
+                                        <CheckBox fx:id="checkBoxDepthPWave" mnemonicParsing="false" text="Depth" />
+
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Дополнительно">
+                     <content>
+                        <VBox>
+                           <children>
+                              <Button onAction="#export" mnemonicParsing="false" text="Экспорт в PNG" />
+                           </children>
+                        </VBox>
+                     </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+            </children>
+        </VBox>
+    </center>
+</fx:root>

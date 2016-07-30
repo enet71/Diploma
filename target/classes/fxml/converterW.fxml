@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="borderPane" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox alignment="CENTER" maxWidth="400.0" minWidth="400.0" prefHeight="300.0" BorderPane.alignment="CENTER">
+            <children>
+                <GridPane alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="25.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <TextField fx:id="input" minWidth="190.0" prefWidth="190.0" />
+                        <Label text="&lt;&gt;" GridPane.columnIndex="1">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="result" minWidth="190.0" prefWidth="190.0" GridPane.columnIndex="2" />
+                        <ComboBox fx:id="comboBox" minWidth="190.0" prefWidth="190.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button fx:id="enter" minWidth="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="261.0" text="Расчитать" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <RadioButton fx:id="buy" mnemonicParsing="false" text="Покупка" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="group" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="sale" mnemonicParsing="false" text="Продажа" toggleGroup="$group" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <ComboBox fx:id="comboBoxUah" disable="true" minWidth="190.0" prefWidth="190.0" GridPane.rowIndex="1" />
+                    </children>
+                </GridPane>
+            </children>
+        </VBox>
+    </center>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</fx:root>

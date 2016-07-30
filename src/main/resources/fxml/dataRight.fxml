@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root fx:id="mainBorderPane" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <ScrollPane fx:id="mainScrollPane" fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+         <content>
+            <HBox fx:id="mainHBox" />
+         </content></ScrollPane>
+    </center>
+   <bottom>
+      <HBox>
+         <children>
+            <GridPane hgap="5.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                        <ComboBox fx:id="analysisComboBox" prefWidth="150.0" promptText="Анализ" />
+                        <ComboBox fx:id="typeComboBox" prefWidth="150.0" promptText="Тип" GridPane.columnIndex="1" />
+                        <TextField fx:id="valueTextField" promptText="Значение" GridPane.columnIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#createAnalys" prefWidth="150.0" text="Добавить" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#createTypeData" prefWidth="150.0" text="Добавить" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#deleteAnalys" prefWidth="150.0" text="Удалить" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#deleteTypeData" prefWidth="150.0" text="Удалить" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#insertData" prefWidth="150.0" text="Добавить" GridPane.columnIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#deleteData" prefWidth="150.0" text="Удалить" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </HBox>
+   </bottom>
+</fx:root>

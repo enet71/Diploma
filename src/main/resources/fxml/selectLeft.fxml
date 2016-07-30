@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<fx:root style="-fx-background-color: #37474F;" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" style="-fx-background-color: #37474F;"
+                    BorderPane.alignment="CENTER">
+            <content>
+                <BorderPane style="-fx-background-color: #37474F;">
+                    <center>
+                        <Accordion fx:id="accordion" BorderPane.alignment="CENTER"/>
+                    </center>
+                </BorderPane>
+            </content>
+        </ScrollPane>
+    </center>
+</fx:root>

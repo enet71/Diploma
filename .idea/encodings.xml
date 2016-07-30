@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/dataLoad/mail/Mail.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/ControllerLeft.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/additionally/converter/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/analysis/data/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/bookKeeping/chart/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/contracts/confirm/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/contracts/select/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/add/sensor/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/watch/table/ControllerLeft.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/data/watch/table/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/htmlReader/ControllerRight.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/main/Controller.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/main/StartForm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/maps/ControllerLeft.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/form/windows/preLoader/PreLoader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/localization/Localization.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/localization/Start.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/localization/ru/TableNameRU.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/localization/ru/add/Sensor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diploma/staticField/SettingFields.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/localization/ru.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/map/map.html" charset="UTF-8" />
+  </component>
+</project>

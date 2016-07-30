@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<fx:root type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <Accordion>
+                    <panes>
+                        <TitledPane animated="false" text="Данные">
+                            <content>
+                                <VBox spacing="2.0">
+                                    <children>
+                                        <CheckBox fx:id="checkBoxSensor" mnemonicParsing="false" text="Датчик"/>
+                                        <CheckBox fx:id="checkBoxTime" mnemonicParsing="false" text="Время"/>
+                                        <CheckBox fx:id="checkBoxDepth" mnemonicParsing="false" text="Глубина"/>
+                                        <CheckBox fx:id="checkBoxEnergy" mnemonicParsing="false" text="Энергия"/>
+                                        <CheckBox fx:id="checkBoxType" mnemonicParsing="false" text="Тип"/>
+                                        <CheckBox fx:id="checkBoxMagnitude" mnemonicParsing="false" text="Магнитура"/>
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Максимальные значения">
+                            <content>
+                                <VBox spacing="5.0">
+                                    <children>
+                                        <TextField fx:id="depthFieldMax" promptText="Depth"/>
+                                        <TextField fx:id="energyFieldMax" promptText="Energy"/>
+                                        <TextField fx:id="magnitudeFieldMax" promptText="Magnitude"/>
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Минимальные значения">
+                            <content>
+                                <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                                    <children>
+                                        <TextField fx:id="depthFieldMin" promptText="Depth"/>
+                                        <TextField fx:id="energyFieldMin" promptText="Energy"/>
+                                        <TextField fx:id="magnitudeFieldMin" promptText="Magnitude"/>
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+            </children>
+        </VBox>
+    </center>
+</fx:root>

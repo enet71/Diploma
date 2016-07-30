@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.diploma.form.windows.main.Controller">
+   <children>
+       <BorderPane fx:id="mainBorderPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <center>
+               <SplitPane fx:id="splitPaneMain" dividerPositions="0.5" BorderPane.alignment="CENTER">
+                  <items>
+                      <BorderPane fx:id="borderPaneLeft" maxWidth="250.0" prefWidth="200.0" />
+                      <BorderPane>
+                          <center>
+                              <TabPane fx:id="tabPane" tabClosingPolicy="ALL_TABS">
+                                  <BorderPane.margin>
+                                      <Insets />
+                                  </BorderPane.margin>
+                              </TabPane>
+                          </center>
+                      </BorderPane>
+                  </items>
+               </SplitPane>
+           </center>
+           <top>
+               <VBox BorderPane.alignment="CENTER">
+                  <children>
+                      <MenuBar>
+                         <menus>
+                             <Menu mnemonicParsing="false" text="Файл">
+                                <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#openSetting" text="Настройки" />
+                                    <MenuItem mnemonicParsing="false" text="Выход" />
+                                </items>
+                             </Menu>
+                             <Menu mnemonicParsing="false" text="Данные">
+                                <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#importDataFile" text="Импорт" />
+                                    <MenuItem mnemonicParsing="false" onAction="#openMail" text="Отправить на почту" />
+                                    <SeparatorMenuItem mnemonicParsing="false" />
+                                    <Menu mnemonicParsing="false" text="Экспорт">
+                                       <items>
+                                           <MenuItem mnemonicParsing="false" onAction="#exportDataFile" text="Data" />
+                                           <MenuItem mnemonicParsing="false" onAction="#exportExcelFile" text="Excel" />
+                                       </items>
+                                    </Menu>
+                                </items>
+                             </Menu>
+                        <Menu mnemonicParsing="false" text="Информационная база">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#createHtml" text="Action 1" />
+                          </items>
+                        </Menu>
+                             <Menu mnemonicParsing="false" text="Помощь">
+                                <items>
+                                    <MenuItem mnemonicParsing="false" text="About" />
+                                </items>
+                             </Menu>
+                         </menus>
+                      </MenuBar>
+                      <TabPane fx:id="mainTabPain" styleClass="MainTabPane" tabClosingPolicy="UNAVAILABLE">
+                         <tabs>
+                             <Tab text="Данные">
+                                <content>
+                                    <ToolBar prefHeight="45.0">
+                                       <items>
+                                    <HBox>
+                                       <children>
+                                                   <Button fx:id="sensorButton" mnemonicParsing="false" onAction="#createSensor" prefHeight="45.0" text="Датчик" />
+                                                   <Button fx:id="regionButton" mnemonicParsing="false" onAction="#createRegion" prefHeight="45.0" text="Регион" />
+                                                   <Button fx:id="seismicButton" mnemonicParsing="false" onAction="#createSeismic" prefHeight="45.0" text="Сейсмостанция" />
+                                                   <Button fx:id="groundButton" mnemonicParsing="false" onAction="#createGround" prefHeight="45.0" text="Почва" />
+                                                 <Button fx:id="tableButton" mnemonicParsing="false" onAction="#dataTable" prefHeight="45.0" text="Таблица" />
+                                                 <Button fx:id="chartButton" mnemonicParsing="false" onAction="#dataChart" prefHeight="45.0" text="График" />
+                                          <Button mnemonicParsing="false" onAction="#createAnalysData" prefHeight="45.0" text="Анализ" />
+                                       </children>
+                                    </HBox>
+                                       </items>
+                                    </ToolBar>
+                                </content>
+                             </Tab>
+                             <Tab text="Договора">
+                                <content>
+                                    <ToolBar prefHeight="45.0">
+                                       <items>
+                                           <VBox alignment="CENTER">
+                                              <children>
+                                                  <HBox>
+                                                     <children>
+                                                         <Button mnemonicParsing="false" onAction="#createContract" prefHeight="45.0" text="Договор" />
+                                                         <Button mnemonicParsing="false" onAction="#createClient" prefHeight="45.0" text="Клиент" />
+                                                       <Button mnemonicParsing="false" onAction="#createConfirmContract" prefHeight="45.0" text="Подтвердить договор" />
+                                                <Button layoutX="129.0" layoutY="10.0" mnemonicParsing="false" onAction="#createSelectContract" prefHeight="45.0" text="Подтвержденные договора" />
+                                                     </children>
+                                                  </HBox>
+                                              </children>
+                                           </VBox>
+                                       </items>
+                                    </ToolBar>
+                                </content>
+                             </Tab>
+                             <Tab text="Бухгалтерия">
+                                <content>
+                                    <ToolBar prefHeight="45.0">
+                                       <items>
+                                    <HBox>
+                                       <children>
+                                                 <Button mnemonicParsing="false" onAction="#createBalance" prefHeight="45.0" text="Изменить баланс" />
+                                          <Button mnemonicParsing="false" onAction="#createKeeping" prefHeight="45.0" text="Период" />
+                                          <Button layoutX="122.0" layoutY="10.0" mnemonicParsing="false" onAction="#createTypeChanges" prefHeight="45.0" text="Тип" />
+                                                 <Button mnemonicParsing="false" onAction="#bookKeepingChart" prefHeight="45.0" text="График" />
+                                       </children>
+                                    </HBox>
+                                       </items>
+                                    </ToolBar>
+                                </content>
+                             </Tab>
+                             <Tab fx:id="map" text="Карта">
+                                <content>
+                                    <ToolBar prefHeight="45.0">
+                                       <items>
+                                           <Button mnemonicParsing="false" onAction="#createMap" prefHeight="45.0" text="Показать карту" />
+                                       </items>
+                                    </ToolBar>
+                                </content>
+                             </Tab>
+                             <Tab text="Дополнительно">
+                                <content>
+                                    <ToolBar prefHeight="45.0">
+                                       <items>
+                                           <Button mnemonicParsing="false" onAction="#openCalculate" prefHeight="45.0" text="Калькулятор" />
+                                           <Button fx:id="converter" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#createConverter" prefHeight="45.0" text="Конвертер" />
+                                           <Button fx:id="translate" layoutX="66.0" layoutY="10.0" mnemonicParsing="false" prefHeight="45.0" text="Переводчик" />
+                                       </items>
+                                    </ToolBar>
+                                </content>
+                             </Tab>
+                         </tabs>
+                      </TabPane>
+                  </children>
+               </VBox>
+           </top>
+           <left>
+               <VBox BorderPane.alignment="CENTER" />
+           </left>
+           <bottom>
+               <HBox fx:id="mainBottomPanel" alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0" BorderPane.alignment="CENTER">
+                  <children>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Label text="Подключение к базе:" />
+                            <Label fx:id="connectDB" style="-fx-text-fill: #b73b3a;" text="failed" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Label text="Подключение к интернету:" />
+                            <Label fx:id="connectInternet" style="-fx-text-fill: #b73b3a;" text="failed" />
+                     </children>
+                  </HBox>
+                  </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               </HBox>
+           </bottom>
+       </BorderPane>
+   </children>
+</AnchorPane>

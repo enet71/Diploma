@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<fx:root type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox spacing="5.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="График">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </Label>
+                <CheckBox fx:id="pieCheckBox" mnemonicParsing="false" text="Круговая">
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </CheckBox>
+                <CheckBox  fx:id="areaCheckBox" mnemonicParsing="false" text="Областная">
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </CheckBox>
+                <Label text="Анализ">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </Label>
+                <ComboBox fx:id="analysComboBox" promptText="Выбрать анализ">
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </ComboBox>
+            </children>
+            <BorderPane.margin>
+                <Insets/>
+            </BorderPane.margin>
+        </VBox>
+    </center>
+    <top>
+        <Accordion style="-fx-background-color: #37474F;" BorderPane.alignment="CENTER"/>
+    </top>
+</fx:root>
