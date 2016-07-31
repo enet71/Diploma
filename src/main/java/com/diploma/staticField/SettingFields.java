@@ -15,4 +15,5 @@ public class SettingFields {
 
 
     public static String CONNECT;
+
 }

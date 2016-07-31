@@ -1,29 +1,30 @@
-package com.diploma.form.windows.region;
+package com.diploma.form.windows.ground;
 
 import com.diploma.dataBase.Command;
-import com.diploma.dataBase.tables.Region;
+import com.diploma.dataBase.tables.Ground;
 import com.diploma.form.windows.AbstractWindow;
 import com.diploma.form.windows.Right;
 import com.diploma.form.windows.RightWindowed;
 import javafx.scene.control.TextField;
 
-@RegionQ
+@GroundQ
 @Right
 public class ControllerRight extends AbstractWindow implements RightWindowed {
     public TextField nameField;
-    public TextField addressField;
+
 
     public ControllerRight() {
-        super("fxml/regionRight.fxml");
+        super("fxml/groundRight.fxml");
     }
 
     public void clear() {
         nameField.clear();
-        addressField.clear();
     }
 
     public void add() {
-        Command.insert(new Region(1, nameField.getText(), addressField.getText()));
+        Command.insert(new Ground(1, nameField.getText()));
         ((ControllerLeft) otherController).refreshList();
     }
+
+
 }

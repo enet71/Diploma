@@ -1,8 +1,9 @@
 package com.diploma.form.windows;
 
-import com.diploma.form.windows.region.*;
 import com.diploma.form.windows.doubleWindow.AbstractDoubleWindow;
 import com.diploma.form.windows.doubleWindow.DoubleWindow;
+import com.diploma.form.windows.region.RegionQ;
+import com.diploma.form.windows.seismic.SeismicQ;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
@@ -20,7 +21,14 @@ public class WindowService {
     @RegionQ
     @Right
     private AbstractWindow regionRight;
-
+    @Inject
+    @SeismicQ
+    @Left
+    private AbstractWindow seismicLeft;
+    @Inject
+    @SeismicQ
+    @Right
+    private AbstractWindow seismicRight;
 
 
     public static void createWindowService() {
@@ -36,5 +44,9 @@ public class WindowService {
 
     public DoubleWindow createRegion() {
         return new AbstractDoubleWindow(regionLeft, regionRight, "Регион");
+    }
+
+    public DoubleWindow createSeismic(){
+        return new AbstractDoubleWindow(seismicLeft, seismicRight, "Сейсмостанция");
     }
 }

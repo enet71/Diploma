@@ -6,6 +6,7 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>com.diploma.dataBase.tables.Client</class>
         <class>com.diploma.dataBase.tables.Region</class>
+        <class>com.diploma.dataBase.tables.Seismic</class>
         <properties>
             <property name="javax.persistence.schema-generation-action" value="drop­and­create"/>
             <property name="javax.persistence.schema-generation-target" value="database­and­scripts"/>

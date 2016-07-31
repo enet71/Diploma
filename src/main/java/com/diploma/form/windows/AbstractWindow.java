@@ -7,7 +7,7 @@ import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
 
-public abstract class AbstractWindow extends BorderPane {
+public abstract class AbstractWindow extends BorderPane{
     public AbstractWindow otherController;
     @FXML
     public Accordion accordion;

@@ -25,7 +25,15 @@ public class LeftElement {
     }
 
     public void setDelete(EventHandler<ActionEvent> eventHandler) {
-        Button button = new Button("Удалить");
+        addButton(eventHandler,"Удалить");
+    }
+
+    public void setSelect(EventHandler<ActionEvent> eventHandler) {
+        addButton(eventHandler,"Выбрать");
+    }
+
+    public void addButton(EventHandler<ActionEvent> eventHandler,String name) {
+        Button button = new Button(name);
         vBox.getChildren().add(button);
         button.setOnAction(eventHandler);
     }

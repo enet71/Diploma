@@ -15,8 +15,6 @@ import com.diploma.form.windows.contracts.client.ClientWindow;
 import com.diploma.form.windows.contracts.confirm.ConfirmWindow;
 import com.diploma.form.windows.contracts.contract.ContractWindow;
 import com.diploma.form.windows.contracts.select.SelectWindow;
-import com.diploma.form.windows.data.add.ground.GroundWindow;
-import com.diploma.form.windows.data.add.seismic.SeismicWindow;
 import com.diploma.form.windows.data.add.sensor.SensorWindow;
 import com.diploma.form.windows.data.watch.chart.ChartWindow;
 import com.diploma.form.windows.data.watch.table.TableWindow;
@@ -117,7 +115,6 @@ public class Controller {
     }
 
 
-
     private WindowService createWindow() {
         Weld weld = new Weld();
         WeldContainer container = weld.initialize();
@@ -128,7 +125,7 @@ public class Controller {
 
     @FXML
     private void createGround() throws IOException {
-        addDoubleWindow(new GroundWindow(), "Добавить почву");
+        //addDoubleWindow(new GroundWindow(), "Добавить почву");
     }
 
     @FXML
@@ -138,12 +135,12 @@ public class Controller {
 
     @FXML
     private void createSeismic() throws IOException {
-        addDoubleWindow(new SeismicWindow(), "Добавить сейсмостанцию");
+        addDoubleWindow(WindowService.getWindowService().createSeismic());
     }
 
     @FXML
     private void createRegion() throws IOException {
-        addDoubleWindow(WindowService .getWindowService().createRegion());
+        addDoubleWindow(WindowService.getWindowService().createRegion());
     }
 
     @FXML
@@ -242,8 +239,8 @@ public class Controller {
         tabPane.getSelectionModel().select(tab);
         setBorderPaneLeft(tab.getDoubleWindow().getLeftBorderPane());
 
-        for(Tab t:tabPane.getTabs()) {
-            if(((DoubleWindowTab)t).getDoubleWindow().getRightBorderPane().getCenter() == null){
+        for (Tab t : tabPane.getTabs()) {
+            if (((DoubleWindowTab) t).getDoubleWindow().getRightBorderPane().getCenter() == null) {
                 tabPane.getTabs().remove(t);
                 break;
             }

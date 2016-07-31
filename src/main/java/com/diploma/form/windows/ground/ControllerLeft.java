@@ -1,7 +1,7 @@
-package com.diploma.form.windows.region;
+package com.diploma.form.windows.ground;
 
 import com.diploma.dataBase.Command;
-import com.diploma.dataBase.tables.Region;
+import com.diploma.dataBase.tables.Ground;
 import com.diploma.form.windows.AbstractWindow;
 import com.diploma.form.windows.Left;
 import com.diploma.form.windows.LeftElement;
@@ -12,33 +12,34 @@ import javafx.event.EventHandler;
 
 import java.util.ArrayList;
 
-@RegionQ
+@GroundQ
 @Left
 public class ControllerLeft extends AbstractWindow implements LeftWindowed{
-    private AbstractWindow controllerRight;
 
     public ControllerLeft() {
         super(StaticFields.LEFTFIELD);
     }
 
+
+    @Override
     public void initialize() {
         refreshList();
     }
 
-
+    @Override
     public void refreshList() {
         accordion.getPanes().clear();
-        ArrayList<Region> list = Command.select(Region.class);
+        ArrayList<Ground> list = Command.select(Ground.class);
 
-        for (Region element : list) {
+        for (Ground element : list) {
             EventHandler<ActionEvent> eventHandler = event -> {
-                Command.delete(Region.class,element.getId());
+                Command.delete(Ground.class,element.getId());
                 refreshList();
             };
 
             LeftElement leftElement = new LeftElement(element.getName());
             leftElement.addLabel(String.valueOf(element.getId()));
-            leftElement.addLabel(element.getAddress());
+            leftElement.addLabel(element.getName());
             leftElement.setDelete(eventHandler);
 
             accordion.getPanes().add(leftElement.getTitledPane());

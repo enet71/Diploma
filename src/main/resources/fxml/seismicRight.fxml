@@ -20,7 +20,7 @@
                 <HBox spacing="5.0">
                     <children>
                         <TextField fx:id="regionField" disable="true" prefWidth="295.0" promptText="Регион" />
-                        <Button mnemonicParsing="false" onAction="#region" prefWidth="80.0" text="Выбрать" />
+                        <Button mnemonicParsing="false" onAction="#getRegion" prefWidth="80.0" text="Выбрать" />
                     </children>
                 </HBox>
                 <TextField fx:id="nameField" promptText="Название" />
