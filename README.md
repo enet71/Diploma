@@ -1,2 +1,0 @@
-# Diploma
-JavaFX, Maven, qweq
