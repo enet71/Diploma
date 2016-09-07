@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Contract {
+public class Contract implements Table{
     @Id
     private Integer id;
     @OneToOne

@@ -21,13 +21,13 @@
                 <HBox spacing="5.0">
                     <children>
                         <TextField fx:id="bookKeepingField" disable="true" prefWidth="295.0" promptText="Период" />
-                        <Button mnemonicParsing="false" onAction="#keeping" prefWidth="80.0" text="Выбрать" />
+                        <Button mnemonicParsing="false" onAction="#getKeeping" prefWidth="80.0" text="Выбрать" />
                     </children>
                 </HBox>
             <HBox spacing="5.0">
                <children>
                   <TextField fx:id="typeField" disable="true" prefWidth="295.0" promptText="Тип" />
-                  <Button mnemonicParsing="false" onAction="#type" prefWidth="80.0" text="Выбрать" />
+                  <Button mnemonicParsing="false" onAction="#getType" prefWidth="80.0" text="Выбрать" />
                </children>
             </HBox>
                 <HBox alignment="CENTER" spacing="5.0">

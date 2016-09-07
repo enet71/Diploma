@@ -1,8 +1,8 @@
 package com.diploma.form.windows.preLoader;
 
 import com.diploma.dataBase.Connect;
-import com.diploma.form.windows.WindowService;
 import com.diploma.initialize.jsonParser.Save;
+import com.diploma.staticField.SettingFields;
 import javafx.application.Preloader;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,7 +15,6 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import com.diploma.staticField.SettingFields;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -111,7 +110,6 @@ public class PreLoader extends Preloader {
                 SettingFields.PASSWORD = passwordField.getText();
                 Connect connect = new Connect();
                 if (connect.getConnectStatus()) {
-                    WindowService.createWindowService();
                     show.show();
                     stage.hide();
                 } else {

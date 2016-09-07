@@ -4,9 +4,9 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Client {
+public class Client implements Table{
     @Id
-    private Long id;
+    private Integer id;
     @NotNull
     private String name;
     @NotNull
@@ -14,7 +14,7 @@ public class Client {
     @NotNull
     private String middleName;
 
-    public Client(Long id, String name, String surname, String middleName) {
+    public Client(Integer id, String name, String surname, String middleName) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -24,11 +24,11 @@ public class Client {
     public Client() {
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

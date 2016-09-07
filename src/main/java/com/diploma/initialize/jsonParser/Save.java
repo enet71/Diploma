@@ -25,21 +25,6 @@ public class Save {
         write();
     }
 
-    public static void main(String[] args) throws IOException, ParseException {
-        /*JSONObject obj = new JSONObject();
-        obj.put("name", "foo");
-        obj.put("num", new Integer(100));
-        obj.put("balance", new Double(1000.21));
-        obj.put("is_vip", new Boolean(true));
-        FileWriter fileWriter = new FileWriter("setting.json");
-        fileWriter.write(obj.toString());
-        fileWriter.flush();
-        fileWriter.close();
-        System.out.print(obj);*/
-
-
-    }
-
     private static void save(String attribute, String value) {
         read();
         put(attribute, value);

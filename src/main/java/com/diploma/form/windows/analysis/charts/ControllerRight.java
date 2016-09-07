@@ -7,10 +7,8 @@ import javafx.collections.ObservableList;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.ScrollPane;
 
-import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ResourceBundle;
 
 public class ControllerRight extends AbstractWindow {
     public ScrollPane scrollPane;
@@ -19,7 +17,7 @@ public class ControllerRight extends AbstractWindow {
         super(path);
     }
 
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize() {
 
 
         try {
@@ -36,7 +34,7 @@ public class ControllerRight extends AbstractWindow {
 
 
             final PieChart chart = new PieChart(pieChartData);
-            chart.setTitle("Imported Fruits");
+            chart.setTitle("Chart");
             scrollPane.setContent(chart);
         } catch (SQLException e) {
             e.printStackTrace();

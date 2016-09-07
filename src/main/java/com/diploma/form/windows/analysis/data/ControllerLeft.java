@@ -1,15 +1,13 @@
 package com.diploma.form.windows.analysis.data;
 
 
-import com.diploma.dataBase.Connect;
 import com.diploma.form.windows.AbstractWindow;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 
-import java.net.URL;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ResourceBundle;
 
 public class ControllerLeft extends AbstractWindow {
     public CheckBox pieCheckBox;
@@ -21,31 +19,14 @@ public class ControllerLeft extends AbstractWindow {
         super(path);
     }
 
-    public void initialize(URL location, ResourceBundle resources) {
-        try {
-            Connect connect = new Connect();
-            resultSet = connect.getStatement().executeQuery("SELECT NAME FROM ANALYSIS");
-            while (resultSet.next()) {
-                analysComboBox.getItems().add(resultSet.getString(1));
-            }
+    //FIXME Edit comboBox
+    public void initialize() {
+        ObservableList<String> list = FXCollections.observableList(Model.getAnalysisNames());
+        analysComboBox.setItems(list);
 
-
-            analysComboBox.setOnAction(event -> {
-                try {
-                    resultSet = connect.getStatement().executeQuery("SELECT ID FROM ANALYSIS WHERE NAME = '" + analysComboBox.getSelectionModel().getSelectedItem() + "'");
-                    resultSet.next();
-                    DataWindow.controllerRight.setAnalyse(resultSet.getInt(1));
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-
-            });
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
+        analysComboBox.setOnAction(event -> {
+            DataWindow.controllerRight.setAnalyse(Model.getSelectAnalysisID(analysComboBox.getSelectionModel().getSelectedItem().toString()));
+        });
 
         pieCheckBox.selectedProperty().addListener((observable, oldValue, newValue) -> {
             DataWindow.controllerRight.addPieChart();

@@ -4,13 +4,15 @@ import org.hibernate.validator.constraints.Email;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Seismic {
+public class Seismic implements Table{
     @Id
     private Integer id;
     @OneToOne
+    @JoinColumn(name = "region")
     private Region region;
     private String name;
     private String phone;

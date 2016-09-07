@@ -4,10 +4,11 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-public class Wave {
+public class Wave implements Table{
     @Id
     private Integer id;
     @OneToOne
+    @JoinColumn(name = "sensor")
     private Sensor sensor;
     @Temporal(TemporalType.DATE)
     private Date timeWave;

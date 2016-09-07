@@ -4,13 +4,24 @@
              version="2.1">
     <persistence-unit name="DBPersistence" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.diploma.dataBase.tables.Analysis</class>
+        <class>com.diploma.dataBase.tables.BalanceChanges</class>
+        <class>com.diploma.dataBase.tables.BookKeeping</class>
         <class>com.diploma.dataBase.tables.Client</class>
+        <class>com.diploma.dataBase.tables.Contract</class>
+        <class>com.diploma.dataBase.tables.Ground</class>
         <class>com.diploma.dataBase.tables.Region</class>
+        <class>com.diploma.dataBase.tables.Seismic</class>
+        <class>com.diploma.dataBase.tables.Sensor</class>
+        <class>com.diploma.dataBase.tables.TypeChanges</class>
+        <class>com.diploma.dataBase.tables.Wave</class>
+        <class>com.diploma.dataBase.tables.DataAnalys</class>
+        <class>com.diploma.dataBase.tables.TypeData</class>
         <properties>
             <property name="javax.persistence.schema-generation-action" value="drop­and­create"/>
             <property name="javax.persistence.schema-generation-target" value="database­and­scripts"/>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:58383:orcl"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:52443:orcl"/>
             <property name="javax.persistence.jdbc.user" value="c##diplom"/>
             <property name="javax.persistence.jdbc.password" value="555792"/>
         </properties>
