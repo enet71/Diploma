@@ -7,9 +7,9 @@ import javax.persistence.TemporalType;
 import java.util.Date;
 
 @Entity
-public class BookKeeping {
+public class BookKeeping implements Table{
     @Id
-    private String id;
+    private Integer id;
     @Temporal(TemporalType.DATE)
     private Date dateBegin;
     @Temporal(TemporalType.DATE)
@@ -18,17 +18,17 @@ public class BookKeeping {
     public BookKeeping() {
     }
 
-    public BookKeeping(String id, Date dateBegin, Date dateEnd) {
+    public BookKeeping(Integer id, Date dateBegin, Date dateEnd) {
         this.id = id;
         dateBegin = dateBegin;
         dateEnd = dateEnd;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

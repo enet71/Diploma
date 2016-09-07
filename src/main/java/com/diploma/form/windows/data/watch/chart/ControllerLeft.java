@@ -1,6 +1,5 @@
 package com.diploma.form.windows.data.watch.chart;
 
-import com.diploma.dataLoad.Export;
 import com.diploma.form.windows.AbstractWindow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,9 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.ResourceBundle;
 
 
 public class ControllerLeft extends AbstractWindow {
@@ -34,15 +31,13 @@ public class ControllerLeft extends AbstractWindow {
     @FXML
     private VBox vBoxSensor;
 
-    public ControllerLeft(String path) {
-        super(path);
+    public ControllerLeft() {
+        super("fxml/dataChartLeft.fxml");
     }
 
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize() {
         waveAction();
         selectSensor();
-
-
     }
 
 
@@ -56,11 +51,11 @@ public class ControllerLeft extends AbstractWindow {
 
         comboBox.setOnAction(event -> {
             Model.SENSOR = comboBox.getSelectionModel().getSelectedItem();
-            if(checkBoxEnergyPWave.isSelected()){
-                ChartWindow.controllerRight.createEnergyP();
-                ChartWindow.controllerRight.createEnergyP();
+            if (checkBoxEnergyPWave.isSelected()) {
+                ((ControllerRight)otherController).createEnergyP();
+                ((ControllerRight)otherController).createEnergyP();
             }
-
+ /*
             if(checkBoxEnergySWave.isSelected()){
                 ChartWindow.controllerRight.createEnergyS();
                 ChartWindow.controllerRight.createEnergyS();
@@ -84,10 +79,10 @@ public class ControllerLeft extends AbstractWindow {
             if(checkBoxDepthSWave.isSelected()){
                 ChartWindow.controllerRight.createDepthS();
                 ChartWindow.controllerRight.createDepthS();
-            }
+            }*/
 
            /*
-            Class cls = ControllerRight.class;
+            Class cls = RegionControllerRight.class;
 
             for (Method method : cls.getDeclaredMethods()) {
                 if (method.getName().contains("remove")) {
@@ -117,9 +112,9 @@ public class ControllerLeft extends AbstractWindow {
 
     private void waveAction() {
         checkBoxEnergyPWave.selectedProperty().addListener((observable, oldValue, newValue) -> {
-                ChartWindow.controllerRight.createEnergyP();
+            ((ControllerRight)otherController).createEnergyP();
         });
-
+/*
         checkBoxMagnitudePWave.selectedProperty().addListener((observable, oldValue, newValue) -> {
                 ChartWindow.controllerRight.createMagnitudeP();
         });
@@ -137,7 +132,7 @@ public class ControllerLeft extends AbstractWindow {
 
         checkBoxDepthSWave.selectedProperty().addListener((observable, oldValue, newValue) -> {
                 ChartWindow.controllerRight.createDepthS();
-        });
+        });*/
     }
 
     @FXML
@@ -148,6 +143,6 @@ public class ControllerLeft extends AbstractWindow {
                 new FileChooser.ExtensionFilter("image(*.png)", "*.png")
         );
         File file = fileChooser.showSaveDialog(stage);
-        Export.imageFile(file,ChartWindow.controllerRight);
+        //Export.imageFile(file,ChartWindow.controllerRight);
     }
 }

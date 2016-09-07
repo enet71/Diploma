@@ -1,18 +1,19 @@
 package com.diploma.dataBase.tables;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
-public class BalanceChanges {
+public class BalanceChanges implements Table{
     @Id
     private Integer id;
     private Integer val;
     @OneToOne
+    @JoinColumn(name = "bookkeeping")
     private BookKeeping bookkeeping;
     @OneToOne
+    @JoinColumn(name = "typeChanges")
     private TypeChanges typeChanges;
+    @Column(name = "indx")
     private String index;
 
     public BalanceChanges() {

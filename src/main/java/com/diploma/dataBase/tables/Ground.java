@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Ground {
+public class Ground implements Table{
     @Id
     private Integer id;
     private String name;

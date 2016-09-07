@@ -2,15 +2,18 @@ package com.diploma.dataBase.tables;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Sensor {
+public class Sensor implements Table{
     @Id
     private Integer id;
     @OneToOne
+    @JoinColumn(name = "seismic")
     private Seismic seismic;
     @OneToOne
+    @JoinColumn(name = "ground")
     private Ground ground;
     private String name;
     private Double lng;

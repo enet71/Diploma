@@ -1,25 +1,30 @@
 package com.diploma.form.windows.analysis.data;
 
 
+import com.diploma.dataBase.Command;
 import com.diploma.dataBase.Connect;
+import com.diploma.dataBase.tables.DataAnalys;
+import com.diploma.dataBase.tables.TypeData;
 import com.diploma.form.windows.AbstractWindow;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.chart.*;
+import javafx.scene.chart.AreaChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.PieChart;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.util.Pair;
 
-import java.net.URL;
+import javax.persistence.Query;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
-import java.util.ResourceBundle;
 
 public class ControllerRight extends AbstractWindow {
 
@@ -38,7 +43,7 @@ public class ControllerRight extends AbstractWindow {
     private boolean pieChart = false;
     private AreaChart<Number, Number> ac;
     private PieChart pc;
-    private TableView<Data> tableView;
+    private TableView<DataAnalys> tableView;
     private int analyse = 0;
 
     public ControllerRight(String path) {
@@ -51,10 +56,10 @@ public class ControllerRight extends AbstractWindow {
 
     public void setAnalyse(int analyse) {
         this.analyse = analyse;
-        refresh();
+        refreshData();
     }
 
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize() {
         createTable();
         createComboBox();
     }
@@ -77,7 +82,7 @@ public class ControllerRight extends AbstractWindow {
         }
     }
 
-    public void refresh(){
+    public void refreshData() {
         createTable();
         addPieChart();
         addPieChart();
@@ -86,15 +91,15 @@ public class ControllerRight extends AbstractWindow {
     }
 
     @FXML
-    private void deleteData(){
+    private void deleteData() {
         try {
-            Data data = tableView.getSelectionModel().getSelectedItem();
+            DataAnalys data = tableView.getSelectionModel().getSelectedItem();
             Connect connect = new Connect();
             connect.getStatement().executeUpdate("DELETE FROM DATAANALYS WHERE ID = " + data.getId());
-        }catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
-        refresh();
+        refreshData();
     }
 
     @FXML
@@ -128,7 +133,7 @@ public class ControllerRight extends AbstractWindow {
                     "INSERT INTO DATAANALYS " +
                     "VALUES (1," + analys + "," + type + ",'" + valueTextField.getText() + "','" + indx + "')");
             connect.closeConnect();
-            refresh();
+            refreshData();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -137,52 +142,32 @@ public class ControllerRight extends AbstractWindow {
     private void createTable() {
         mainHBox.getChildren().remove(tableView);
         tableView = new TableView<>();
-        ArrayList<Data> arrayList = new ArrayList<>();
 
-        try {
-            Connect connect = new Connect();
-            ResultSet resultSet;
-            if(getAnalyse() != 0) {
-                resultSet = connect.getStatement().executeQuery("" +
-                        "SELECT DATAANALYS.ID,ANALYSIS.NAME,TYPEDATA.NAME,DATAANALYS.VALUE,DATAANALYS.INDX " +
-                        "FROM DATAANALYS " +
-                        "INNER JOIN ANALYSIS ON ANALYSIS.ID = DATAANALYS.ANALYSIS " +
-                        "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
-                        "WHERE DATAANALYS.ANALYSIS = " + getAnalyse());
-            }else {
-                resultSet = connect.getStatement().executeQuery("" +
-                        "SELECT DATAANALYS.ID,ANALYSIS.NAME,TYPEDATA.NAME,DATAANALYS.VALUE,DATAANALYS.INDX " +
-                        "FROM DATAANALYS " +
-                        "INNER JOIN ANALYSIS ON ANALYSIS.ID = DATAANALYS.ANALYSIS " +
-                        "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA ");
-            }
-
-            while (resultSet.next()) {
-                arrayList.add(new Data(resultSet.getString(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4), resultSet.getInt(5)));
-            }
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
+        List<DataAnalys> list;
+        if (getAnalyse() != 0) {
+            Query query = Command.getEm().createQuery("select a FROM DataAnalys as a where a.analysis.id = " + analyse);
+            list = query.getResultList();
+        } else {
+            list = Command.select(DataAnalys.class);
         }
 
 
-        TableColumn<Data, String> tableColumnId = new TableColumn<>("Ид");
+        TableColumn<DataAnalys, Integer> tableColumnId = new TableColumn<>("Ид");
         tableColumnId.setCellValueFactory(new PropertyValueFactory<>("id"));
 
-        TableColumn<Data, String> tableColumnAnalys = new TableColumn<>("Анализ");
-        tableColumnAnalys.setCellValueFactory(new PropertyValueFactory<>("analys"));
+        TableColumn<DataAnalys, String> tableColumnAnalys = new TableColumn<>("Анализ");
+        tableColumnAnalys.setCellValueFactory(new PropertyValueFactory<>("analysString"));
 
-        TableColumn<Data, String> tableColumnType = new TableColumn<>("Тип");
-        tableColumnType.setCellValueFactory(new PropertyValueFactory<>("type"));
+        TableColumn<DataAnalys, String> tableColumnType = new TableColumn<>("Тип");
+        tableColumnType.setCellValueFactory(new PropertyValueFactory<>("typeDataString"));
 
-        TableColumn<Data, String> tableColumnValue = new TableColumn<>("Значние");
+        TableColumn<DataAnalys, String> tableColumnValue = new TableColumn<>("Значние");
         tableColumnValue.setCellValueFactory(new PropertyValueFactory<>("value"));
 
-        TableColumn<Data, String> tableColumnIndex = new TableColumn<>("Индекс");
+        TableColumn<DataAnalys, String> tableColumnIndex = new TableColumn<>("Индекс");
         tableColumnIndex.setCellValueFactory(new PropertyValueFactory<>("index"));
 
-        ObservableList<Data> observableList = FXCollections.observableArrayList(arrayList);
+        ObservableList<DataAnalys> observableList = FXCollections.observableArrayList(list);
 
         tableView.setItems(observableList);
         tableView.getColumns().add(tableColumnId);
@@ -194,30 +179,6 @@ public class ControllerRight extends AbstractWindow {
         mainHBox.getChildren().add(tableView);
     }
 
-    public void addBarChart() {
-        final CategoryAxis xAxis = new CategoryAxis();
-        final NumberAxis yAxis = new NumberAxis();
-        final BarChart<String, Number> bc = new BarChart<String, Number>(xAxis, yAxis);
-        bc.setTitle("Country Summary");
-        xAxis.setLabel("Country");
-        yAxis.setLabel("Value");
-
-        XYChart.Series series1 = new XYChart.Series();
-        series1.setName("2003");
-        series1.getData().add(new XYChart.Data("austria", 25601.34));
-        series1.getData().add(new XYChart.Data("brazil", 20148.82));
-        series1.getData().add(new XYChart.Data("france", 10000));
-
-        XYChart.Series series2 = new XYChart.Series();
-        series2.setName("2004");
-        series2.getData().add(new XYChart.Data("austria", 57401.85));
-        series2.getData().add(new XYChart.Data("brazil", 41941.19));
-        series2.getData().add(new XYChart.Data("france", 45263.37));
-
-        bc.getData().addAll(series1, series2);
-        mainHBox.getChildren().addAll(bc);
-    }
-
     public void addPieChart() {
         if (pieChart) {
             mainHBox.getChildren().remove(pc);
@@ -226,14 +187,14 @@ public class ControllerRight extends AbstractWindow {
             try {
                 Connect connect = new Connect();
                 ResultSet resultSet;
-                if(getAnalyse() != 0) {
+                if (analyse != 0) {
                     resultSet = connect.getStatement().executeQuery("" +
                             "SELECT COUNT(DATAANALYS.ID),TYPEDATA.NAME,DATAANALYS.TYPEDATA " +
                             "FROM DATAANALYS " +
                             "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
                             "WHERE ANALYSIS = " + getAnalyse() +
                             "GROUP BY DATAANALYS.TYPEDATA, TYPEDATA.NAME");
-                }else {
+                } else {
                     resultSet = connect.getStatement().executeQuery("" +
                             "SELECT COUNT(DATAANALYS.ID),TYPEDATA.NAME,DATAANALYS.TYPEDATA " +
                             "FROM DATAANALYS " +
@@ -264,50 +225,23 @@ public class ControllerRight extends AbstractWindow {
             areaChart = false;
 
         } else {
-            ArrayList<DataAnalys> listData = new ArrayList<>();
-            ArrayList<String> listTypes = new ArrayList<>();
+            List<DataAnalys> listData;
+            List<String> listTypes;
 
-            try {
-                Connect connect = new Connect();
-                ResultSet resultSet;
-                if(getAnalyse() != 0) {
-                    resultSet = connect.getStatement().executeQuery("" +
-                            "SELECT DISTINCT (TYPEDATA.NAME) " +
-                            "FROM dataanalys " +
-                            "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
-                            "WHERE ANALYSIS = " + getAnalyse() + " AND TYPEDATA.ABBREVIATION = 'int'");
-                    while (resultSet.next()) {
-                        listTypes.add(resultSet.getString(1));
-                    }
+            Query query;
+            if (analyse != 0) {
+                query = Command.getEm().createQuery("select distinct a.typeData.name FROM DataAnalys as a where a.analysis.id = " + analyse + " and a.typeData.abbreviation = 'int'");
+                listTypes = query.getResultList();
 
-                    resultSet = connect.getStatement().executeQuery("" +
-                            "SELECT INDX,VALUE,TYPEDATA.NAME " +
-                            "FROM DATAANALYS " +
-                            "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
-                            "WHERE ANALYSIS = " + getAnalyse() + " AND TYPEDATA.ABBREVIATION = 'int'");
-                }else {
-                    resultSet = connect.getStatement().executeQuery("" +
-                            "SELECT DISTINCT (TYPEDATA.NAME) " +
-                            "FROM dataanalys " +
-                            "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
-                            "WHERE TYPEDATA.ABBREVIATION = 'int'");
-                    while (resultSet.next()) {
-                        listTypes.add(resultSet.getString(1));
-                    }
+                query = Command.getEm().createQuery("select a from DataAnalys as a where a.analysis.id = " + analyse + " and a.typeData.abbreviation = 'int'");
+                listData = query.getResultList();
+            } else {
+                query = Command.getEm().createQuery("select distinct a.typeData.name from DataAnalys as a where a.typeData.abbreviation = 'int'");
+                listTypes = query.getResultList();
 
-                    resultSet = connect.getStatement().executeQuery("" +
-                            "SELECT INDX,VALUE,TYPEDATA.NAME " +
-                            "FROM DATAANALYS " +
-                            "INNER JOIN TYPEDATA ON TYPEDATA.ID = DATAANALYS.TYPEDATA " +
-                            "WHERE TYPEDATA.ABBREVIATION = 'int'");
-                }
-                    while (resultSet.next()) {
-                    listData.add(new DataAnalys(resultSet.getInt(1), resultSet.getInt(2), resultSet.getString(3)));
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
+                query = Command.getEm().createQuery("select a from DataAnalys as a where a.typeData.abbreviation = 'int'");
+                listData = query.getResultList();
             }
-
 
             final NumberAxis xAxis = new NumberAxis();
             final NumberAxis yAxis = new NumberAxis();
@@ -319,15 +253,13 @@ public class ControllerRight extends AbstractWindow {
                 series.setName(listTypes.get(i));
 
                 for (int j = 0; j < listData.size(); j++) {
-                    System.out.println(listData.get(j).getType());
-                    System.out.println(listTypes.get(i));
-                    if (listData.get(j).getType().equals(listTypes.get(i))) {
-                        series.getData().add(new XYChart.Data(listData.get(j).getIndex(), listData.get(j).getValue()));
-                        System.out.println(listData.get(j).getIndex() + listData.get(j).getValue());
+                    if (listData.get(j).getTypeData().getName().equals(listTypes.get(i))) {
+                        series.getData().add(new XYChart.Data(listData.get(j).getIndex(), Integer.parseInt(listData.get(j).getValue())));
                     }
                 }
                 ac.getData().add(series);
             }
+            System.out.println("EXIT");
             mainHBox.getChildren().add(ac);
             areaChart = true;
         }
@@ -336,15 +268,12 @@ public class ControllerRight extends AbstractWindow {
 
     @FXML
     private void createAnalys() {
-        // Create the custom dialog.
         Dialog<String> dialog = new Dialog<>();
         dialog.setHeaderText("Создать анализ");
 
-        // Set the button types.
         ButtonType loginButtonType = new ButtonType("Enter", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(loginButtonType, ButtonType.CANCEL);
 
-        // Create the username and password labels and fields.
         GridPane grid = new GridPane();
         grid.setHgap(10);
         grid.setVgap(10);
@@ -358,10 +287,8 @@ public class ControllerRight extends AbstractWindow {
 
         dialog.getDialogPane().setContent(grid);
 
-        // Request focus on the username field by default.
         Platform.runLater(username::requestFocus);
 
-        // Convert the result to a username-password-pair when the login button is clicked.
         dialog.setResultConverter(dialogButton -> {
             if (dialogButton == loginButtonType) {
                 return username.getText();
@@ -384,15 +311,12 @@ public class ControllerRight extends AbstractWindow {
 
     @FXML
     private void createTypeData() {
-// Create the custom dialog.
         Dialog<Pair<String, String>> dialog = new Dialog<>();
         dialog.setHeaderText("Создать тип");
 
-        // Set the button types.
         ButtonType loginButtonType = new ButtonType("Enter", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(loginButtonType, ButtonType.CANCEL);
 
-        // Create the username and password labels and fields.
         GridPane grid = new GridPane();
         grid.setHgap(10);
         grid.setVgap(10);
@@ -410,10 +334,8 @@ public class ControllerRight extends AbstractWindow {
 
         dialog.getDialogPane().setContent(grid);
 
-        // Request focus on the username field by default.
         Platform.runLater(username::requestFocus);
 
-        // Convert the result to a username-password-pair when the login button is clicked.
         dialog.setResultConverter(dialogButton -> {
             if (dialogButton == loginButtonType) {
                 return new Pair<>(username.getText(), password.getText());
@@ -424,12 +346,7 @@ public class ControllerRight extends AbstractWindow {
         Optional<Pair<String, String>> result = dialog.showAndWait();
 
         result.ifPresent(usernamePassword -> {
-            try {
-                Connect connect = new Connect();
-                connect.getStatement().executeUpdate("INSERT INTO TYPEDATA (NAME,ABBREVIATION) VALUES ('" + usernamePassword.getKey() + "','" + usernamePassword.getValue() + "')");
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            Command.insert(new TypeData(1, usernamePassword.getKey(), usernamePassword.getValue()));
             createComboBox();
         });
     }
@@ -457,97 +374,5 @@ public class ControllerRight extends AbstractWindow {
         }
         createComboBox();
 
-    }
-
-    public class DataAnalys {
-        int index;
-        int value;
-        String type;
-
-        public DataAnalys(int index, int value, String type) {
-            this.index = index;
-            this.value = value;
-            this.type = type;
-        }
-
-        public int getIndex() {
-            return index;
-        }
-
-        public void setIndex(int index) {
-            this.index = index;
-        }
-
-        public int getValue() {
-            return value;
-        }
-
-        public void setValue(int value) {
-            this.value = value;
-        }
-
-        public String getType() {
-            return type;
-        }
-
-        public void setType(String type) {
-            this.type = type;
-        }
-    }
-
-    public class Data {
-        String id;
-        String analys;
-        String type;
-        String value;
-        int index;
-
-        public Data(String id, String analys, String type, String value, int index) {
-            this.id = id;
-            this.analys = analys;
-            this.type = type;
-            this.value = value;
-            this.index = index;
-        }
-
-        public String getId() {
-            return id;
-        }
-
-        public void setId(String id) {
-            this.id = id;
-        }
-
-        public String getAnalys() {
-            return analys;
-        }
-
-        public void setAnalys(String analys) {
-            this.analys = analys;
-        }
-
-        public String getType() {
-            return type;
-        }
-
-        public void setType(String type) {
-            this.type = type;
-        }
-
-        public String getValue() {
-            return value;
-        }
-
-        public void setValue(String value) {
-            this.value = value;
-        }
-
-        public int getIndex() {
-            return index;
-        }
-
-        public void setIndex(int index) {
-            this.index = index;
-        }
     }
 }

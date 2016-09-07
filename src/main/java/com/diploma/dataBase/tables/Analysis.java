@@ -7,9 +7,9 @@ import javax.persistence.TemporalType;
 import java.util.Date;
 
 @Entity
-public class Analysis {
+public class Analysis implements Table{
     @Id
-    private Long id;
+    private Integer id;
     private String name;
     @Temporal(TemporalType.DATE)
     private Date dateCreate;
@@ -18,17 +18,17 @@ public class Analysis {
 
     }
 
-    public Analysis(Long id, String name, Date dateCreate) {
+    public Analysis(Integer id, String name, Date dateCreate) {
         this.id = id;
         this.name = name;
         this.dateCreate = dateCreate;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -8,6 +8,7 @@ import com.diploma.dataBase.tables.Wave;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+@Deprecated
 public class Select {
     public static ArrayList<Ground> selectGround() throws SQLException {
         Connect connect = new Connect();

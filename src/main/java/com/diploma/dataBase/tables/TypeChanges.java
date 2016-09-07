@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class TypeChanges {
+public class TypeChanges implements Table{
     @Id
     private Integer id;
     private String name;
