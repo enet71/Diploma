@@ -1,16 +1,7 @@
 package com.diploma.form.windows;
 
-import com.diploma.dataBase.tables.Client;
-import com.diploma.form.windows.contracts.client.ModelClient;
 import javafx.fxml.FXML;
 import javafx.scene.control.Accordion;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TitledPane;
-import javafx.scene.layout.VBox;
-
-import java.sql.SQLException;
-import java.util.List;
 
 public class ControllerLeft extends AbstractWindow {
     @FXML
@@ -223,7 +214,7 @@ public class ControllerLeft extends AbstractWindow {
         }*/
     }
 
-    public void refreshListClient() {
+    /*public void refreshListClient() {
         accordion.getPanes().clear();
         List<Client> list = ModelClient.selectClient();
         for (Client element : list) {
@@ -246,7 +237,7 @@ public class ControllerLeft extends AbstractWindow {
             });
 
         }
-    }
+    }*/
 
     public void refreshListContract() {
         /*accordion.getPanes().clear();

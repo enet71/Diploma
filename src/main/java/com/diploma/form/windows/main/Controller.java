@@ -7,21 +7,13 @@ import com.diploma.form.windows.WindowService;
 import com.diploma.form.windows.additionally.converter.ConverterWindow;
 import com.diploma.form.windows.analysis.charts.PieChartWindow;
 import com.diploma.form.windows.analysis.data.DataWindow;
-import com.diploma.form.windows.bookKeeping.balance.BalanceWindow;
-import com.diploma.form.windows.bookKeeping.chart.BookKeepingChartWindow;
-import com.diploma.form.windows.bookKeeping.keeping.KeepingWindow;
-import com.diploma.form.windows.bookKeeping.type.TypeWindow;
-import com.diploma.form.windows.contracts.client.ClientWindow;
 import com.diploma.form.windows.contracts.confirm.ConfirmWindow;
 import com.diploma.form.windows.contracts.contract.ContractWindow;
 import com.diploma.form.windows.contracts.select.SelectWindow;
-import com.diploma.form.windows.data.add.sensor.SensorWindow;
-import com.diploma.form.windows.data.watch.chart.ChartWindow;
 import com.diploma.form.windows.data.watch.table.TableWindow;
 import com.diploma.form.windows.doubleWindow.DoubleWindow;
 import com.diploma.form.windows.doubleWindow.DoubleWindowTab;
 import com.diploma.form.windows.htmlReader.htmlReaderWindow;
-import com.diploma.form.windows.maps.MapsWindow;
 import com.diploma.staticField.SettingFields;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
@@ -125,22 +117,22 @@ public class Controller {
 
     @FXML
     private void createGround() throws IOException {
-        //addDoubleWindow(new GroundWindow(), "Добавить почву");
+        addDoubleWindow(WindowService.createGround());
     }
 
     @FXML
     private void createSensor() throws IOException {
-        addDoubleWindow(new SensorWindow(), "Добавить датчик");
+       addDoubleWindow(WindowService.createSensor());
     }
 
     @FXML
     private void createSeismic() throws IOException {
-        addDoubleWindow(WindowService.getWindowService().createSeismic());
+        addDoubleWindow(WindowService.createSeismic());
     }
 
     @FXML
     private void createRegion() throws IOException {
-        addDoubleWindow(WindowService.getWindowService().createRegion());
+        addDoubleWindow(WindowService.createRegion());
     }
 
     @FXML
@@ -150,12 +142,12 @@ public class Controller {
 
     @FXML
     void dataChart() {
-        addDoubleWindow(new ChartWindow(), "График");
+        //addDoubleWindow(WindowService.getWindowService().createWaveChart());
     }
 
     @FXML
     void bookKeepingChart() {
-        addDoubleWindow(new BookKeepingChartWindow(), "График");
+        addDoubleWindow(WindowService.createBalanceChart());
     }
 
     @FXML
@@ -170,7 +162,7 @@ public class Controller {
 
     @FXML
     void createMap() throws IOException {
-        addDoubleWindow(new MapsWindow(), "Карта");
+        addDoubleWindow(WindowService.createMap());
     }
 
     @FXML
@@ -180,22 +172,22 @@ public class Controller {
 
     @FXML
     void createClient() throws IOException {
-        addDoubleWindow(new ClientWindow(), "Клиент");
+        addDoubleWindow(WindowService.createClient());
     }
 
     @FXML
     void createKeeping() throws IOException {
-        addDoubleWindow(new KeepingWindow(), "Период");
+        addDoubleWindow(WindowService.createTypeKeeping());
     }
 
     @FXML
     void createTypeChanges() throws IOException {
-        addDoubleWindow(new TypeWindow(), "Тип");
+        addDoubleWindow(WindowService.createTypeBalance());
     }
 
     @FXML
     void createBalance() throws IOException {
-        addDoubleWindow(new BalanceWindow(), "Баланс");
+        addDoubleWindow(WindowService.createBalance());
     }
 
     @FXML

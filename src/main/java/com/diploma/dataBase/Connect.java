@@ -4,6 +4,7 @@ import com.diploma.staticField.SettingFields;
 
 import java.sql.*;
 
+@Deprecated
 public class Connect {
     private Connection connection;
     private Statement statement = null;
