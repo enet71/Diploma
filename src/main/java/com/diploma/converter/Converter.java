@@ -15,6 +15,7 @@ import java.text.NumberFormat;
 public class Converter {
     private static NumberFormat formatter = new DecimalFormat("#0.00");
 
+
     public static void updateData() {
         try {
             URL connection = new URL("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5");
